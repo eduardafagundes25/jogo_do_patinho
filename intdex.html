@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo de Clique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🎯 Pegue o piscopato</h1>
+
+    <div class="placar">
+        <div>Tempo: <span id="time">60</span>s</div>
+        <div>Pontos: <span id="score">0</span></div>
+        <div class="verde">Acertos: <span id="hits">0</span></div>
+        <div class="vermelho">Erros: <span id="errors">0</span></div>
+    </div>
+
+    <div class="botoes">
+        <button id="startBtn">Iniciar</button>
+        <button id="pauseBtn">Pause</button>
+    </div>
+
+    <div class="game-box" id="gameBox">
+        <img src="patinho" id="target">
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+</html>
